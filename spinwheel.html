@@ -216,7 +216,7 @@
           if (winnerFound) break;
 
           // Tambah posisi acak tapi makin kecil tiap interval (seperti lari menurun)
-          const step = Math.random() * 20 + 5;
+          const step = Math.random() * 5 + 5;
           runner.position += step;
 
           // Batasi posisi supaya gak melebihi track width minus lebar runner
